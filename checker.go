@@ -27,10 +27,10 @@ func main() {
 	fmt.Printf("%s╔════════════════════════════════════════════╗%s\n", cyan, reset)
 	fmt.Printf("%s║          Proxy Checker by m85.68           ║%s\n", yellow, reset)
 	fmt.Printf("%s╚════════════════════════════════════════════╝%s\n", cyan, reset)
-	fmt.Printf("%sEnter path to proxy file (default: proxies.txt): %s", yellow, reset)
+	fmt.Printf("%sEnter path to proxy file (default: proxies8080.txt): %s", yellow, reset)
 	fmt.Scanln(&proxiesFile)
 	if proxiesFile == "" {
-		proxiesFile = "proxies.txt"
+		proxiesFile = "proxies8080.txt"
 	}
 	fmt.Printf("%sEnter path to save working proxies (default: working_proxies.txt): %s", yellow, reset)
 	fmt.Scanln(&outputFile)
